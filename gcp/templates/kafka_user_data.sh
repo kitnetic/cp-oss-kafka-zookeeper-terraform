@@ -244,7 +244,6 @@ else
 fi
 echo "$$DEVICE_NAME /data ext4 defaults,nofail 0 2" | sudo tee -a /etc/fstab
 
-
 echo "installed" > /etc/kafka/kafka_installed.tag
 
 sudo mkdir -p /data/kafka
